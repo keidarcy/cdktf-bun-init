@@ -1,0 +1,29 @@
+{
+	"name": "cdktf-bun-init",
+	"version": "1.0.0",
+	"types": "main.ts",
+	"private": true,
+	"scripts": {
+		"get": "cdktf get",
+		"synth": "cdktf synth",
+		"plan": "cdktf plan cdktf-stack"
+	},
+	"dependencies": {
+		"@cdktf/provider-aws": "^19.17.0",
+		"cdktf": "^0.20.4",
+		"constructs": "^10.3.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.6.0",
+		"cdktf-cli": "^0.20.7",
+		"@types/node": "^20.11.25",
+		"typescript": "^5.4.2"
+	},
+	"engines": {
+		"node": "20.11.0"
+	},
+	"volta": {
+		"node": "20.11.0",
+		"bun": "1.0.29"
+	}
+}

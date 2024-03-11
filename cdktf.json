@@ -1,0 +1,6 @@
+{
+	"language": "typescript",
+	"app": "bun run stacks/main.ts",
+	"projectId": "unknown",
+	"sendCrashReports": "false"
+}
