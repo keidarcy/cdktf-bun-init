@@ -16,5 +16,5 @@ jobs:
       - run: bun install
       - run: bun run lint
       - run: bun run format
-      - run: bun run cdktf list
-      - run: bun run cdktf synth
+      - run: bun run list
+      - run: bun run synth

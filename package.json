@@ -5,10 +5,11 @@
   "private": true,
   "scripts": {
     "get": "cdktf get",
-    "synth": "cdktf synth",
     "plan": "cdktf plan cdktf-stack",
     "lint": "biome lint . --vcs-enabled=true",
-    "format": "biome format . --vcs-enabled=true"
+    "format": "biome format . --vcs-enabled=true",
+    "list": "cdktf list",
+    "synth": "cdktf synth"
   },
   "dependencies": {
     "@cdktf/provider-aws": "^19.39.0",
