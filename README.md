@@ -1,5 +1,7 @@
 # cdktf-bun-init
 
+[![CI Check](https://github.com/keidarcy/cdktf-bun-init/actions/workflows/ci.yml/badge.svg)](https://github.com/keidarcy/cdktf-bun-init/actions/workflows/ci.yml)
+
 Minimal [cdktf](https://learn.hashicorp.com/tutorials/cdktf/get-started) setup alternative to `cdktf init --template=typescript --providers=--providers=@cdktf/provider-aws --local`, using [Bun](https://bun.sh/) and [Biome](https://biomejs.dev/).
 
 ## Prerequisites
