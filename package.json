@@ -9,7 +9,7 @@
 		"plan": "cdktf plan cdktf-stack"
 	},
 	"dependencies": {
-		"@cdktf/provider-aws": "^19.17.0",
+		"@cdktf/provider-aws": "^19.39.0",
 		"cdktf": "^0.20.4",
 		"constructs": "^10.3.0"
 	},

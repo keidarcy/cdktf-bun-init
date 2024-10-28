@@ -10,9 +10,9 @@ class CdktfStack extends TerraformStack {
 
 		new provider.AwsProvider(this, "aws", {});
 
-		// new s3Bucket.S3Bucket(this, "test-bucket", {
-		// 	bucket: "cdktf-bun-init-bucket",
-		// });
+		new s3Bucket.S3Bucket(this, "test-bucket", {
+			bucket: "keidarcy-cdktf-bun-init-test-bucket-name",
+		});
 	}
 }
 new CdktfStack(app, "cdktf-stack");

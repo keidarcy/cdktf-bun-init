@@ -10,8 +10,10 @@ Minimal [cdktf](https://learn.hashicorp.com/tutorials/cdktf/get-started) setup a
 
 Run `bun install` to install all dependencies.
 
-## Scripts
+## Plan & Apply
 
-Run `bun run` to see available scripts.
+Plan: `bun run cdktf plan cdktf-stack`
+
+Apply: `bun run cdktf apply cdktf-stack`
 
 [Minimal cdk bun setup](https://github.com/keidarcy/cdk-bun-init)
